@@ -1,6 +1,14 @@
 body{
   font-family: 'Karma', serif;
 }
+
+ul.nav a:hover { 
+  color: #AEBFC2 !important; 
+}
+.navbar-brand, .navbar-brand:hover{
+  color: #2F5F9C
+}
+
 header {
   margin-top: 10px;
   background: rgba(255,255,255,0.9);
@@ -68,5 +76,8 @@ header {
   padding: 6px 10px 6px 10px;
   width: 100%;
   border: 1px solid #9d9d9d;
+  background-color: white;
+}
+.table {
   background-color: white;
 }

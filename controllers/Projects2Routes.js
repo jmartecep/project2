@@ -38,7 +38,7 @@ router.get('/button1', function(req, res){
   })
 });
 
-router.get('/button2', function(req, res){
+router.get('/button2', function(req, res){console.log('button2');
   models.prodtype.findAll({
       
   }).then(function(data){
